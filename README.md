@@ -4,7 +4,7 @@ The service is not centralized as in today's cloud systems, but communication is
 
 ## Install
 ```sh
-docker pull nanorocks/nanorocks_syncthing_amd64
+docker pull nanorocks/syncthing_nanorocks_amd64
 ```
 
 ## Usage
