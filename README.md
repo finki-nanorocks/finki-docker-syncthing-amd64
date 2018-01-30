@@ -15,7 +15,7 @@ docker run -v /config --name nanorocks_syncthing_amd64_config amd64/ubuntu chown
 
 ```sh
 docker run -d --net='host' -v /mnt/media:/mnt/media --volumes-from nanorocks_syncthing_amd64_config \
--p 22000:22000 -p 8384:8384 -p 21027:21027/udp nanorocks/syncthing_nanorocks_amd64
+-p 22000:22000 -p 8384:8384 -p 21027:21027/udp --name nanorocks_syncthing_amd64 nanorocks/syncthing_nanorocks_amd64
 
 ```
 
